@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./img/bid-img.png);
+    background-position: center;
+    font-family: sans-serif;
+    background-image: url(./img/bid-img.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    margin-top: 50%;
+    
+  }
+  .loginbox {
+    width: 350px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: white;
+    padding-top: 2rem;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  form input {
+    
+    outline: none;
+    border: none;
+    border-bottom: solid 2px gray;
+    background: black;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    display:block;
+  }
+  .link{
+    color: white;
+  }
+
+  form p {
+    font-weight: 700;
+  }
+
+  .login-btn {
+    background-color: white;
+    color: black;
+    padding: 0.4rem 0;
+    margin-bottom: 1.5rem;
+  }
